@@ -15,4 +15,7 @@ object SampleScala extends App {
   println("opt2 contient une valeur : " + opt2)
 
 
+
+
+
 }

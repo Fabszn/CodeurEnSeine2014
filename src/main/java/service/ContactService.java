@@ -14,7 +14,7 @@ public class ContactService {
         final ContactRepository cr = new ContactRepository();
 
 
-        return cr.getContactById(id);
+        return cr.getContact(id);
 
     }
 }

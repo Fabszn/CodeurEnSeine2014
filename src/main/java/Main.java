@@ -9,12 +9,13 @@ public class Main {
 
 
     public static void main(String[] args) {
+
         final ContactService cs = new ContactService();
 
         final Contact c = cs.getContactById(1);
 
         if (c != null) {
-            System.out.println(c.age());
+            System.out.println(c.getAge());
         } else {
             System.out.println("Contact not found");
         }

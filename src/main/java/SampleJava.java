@@ -17,7 +17,7 @@ public class SampleJava {
         Optional<Contact> o1 = Optional.ofNullable(c1);
         Optional<Contact> o2 = Optional.of(c2);
 
-        System.out.println(o1);
-        System.out.println(o2);
+        System.out.println("o1 = " + o1);
+        System.out.println("o2 = " + o2);
     }
 }
